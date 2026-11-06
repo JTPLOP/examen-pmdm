@@ -1,0 +1,11 @@
+<div class="card m-3 bg-info" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Titulo: {{film()?.title}}</h5>
+    <p class="card-text">Producido: {{film()?.producer}}</p>
+    <p class="card-text">Fecha de salida: {{film()?.release_date}}</p>
+    
+    <div class="container-fluid btn ">
+      <a class="navbar-brand" [routerLink]="[film()?.url]">Detalles</a>
+    </div>
+  </div>
+</div>

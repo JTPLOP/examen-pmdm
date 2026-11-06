@@ -1,0 +1,13 @@
+<h2>Peliculas STAR WAR</h2>
+
+<div class="column">
+
+    @for (peli of filmList(); track peli) {
+
+        <app-film-item [film] = peli>
+            
+        </app-film-item>
+
+
+    }
+</div>

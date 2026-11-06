@@ -1,0 +1,13 @@
+<h2>VEHICULOS STAR WAR</h2>
+
+<div class="column">
+
+    @for (vehi of vehicleList(); track vehi) {
+
+        <app-vehicle-item [vehicle] = vehi (vehicleClicked)="openVehicleModal($event)">
+            
+        </app-vehicle-item>
+
+
+    }
+</div>
